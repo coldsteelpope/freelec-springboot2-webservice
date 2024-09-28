@@ -22,6 +22,7 @@ public class ProfileControllerTest
     @Autowired
     private TestRestTemplate restTemplate;
 
+    //change!
     @Test
     public void profile은_인증없이_호출된다() throws Exception
     {
